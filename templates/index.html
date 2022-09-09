@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf8">
+    <link rel="stylesheet" href="{{ url_for('static', filename= 'css/style.css')}}">
+    <title>Twitter Check</title>
+
+</head>
+
+
+
+<body>
+
+<h1>TwitterCheck</h1>
+
+<div class="entry">
+    <h5>Enter Topic / Person</h5>
+    <form class = "search" method="POST">
+        <input type="text" id="topic" name="topic">
+    </form>
+</div>
+
+<h3>{{ value }}</h3>
+<div class="image">
+    <center><img src= "{{ user_image }}"></center>
+    
+
+
+
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
