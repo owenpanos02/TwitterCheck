@@ -13,12 +13,13 @@ def index():
         from textblob import TextBlob
         import requests
         import matplotlib.pyplot as plt
-        
-        api_key = 'kUsTUstZrYmIjGgnk9txeSPwR'
-        api_secret_key = 'b4RjiXnqG8ip2b2eIm29RQRKtnjWZqaOsmGz0gmz5y8GPnfKFi'
-        bearer_token = 'AAAAAAAAAAAAAAAAAAAAAAPgbgEAAAAAW8Muua7ddM2AMFo3XTcKXoaNDtM%3DnCRmwnLspILhbtAWD2kXel7o9z0g5irwoeWL2mJmcaXWgpllIS'
-        access_token = '712737682854576128-YAopug8JrHDU2FKJaq1XXFadd3qdLWp'
-        access_token_secret = 'FOz0YmSbjykVo3wllvCMIwB133NAdNT5390PkJl56VOG5'
+
+# Retrieve below from twitter dev account      
+        api_key = {ENTER API KEY HERE}
+        api_secret_key = {ENTER API SECRET KEY}
+        bearer_token = {ENTER BEARER TOKEN}
+        access_token = {ENTER ACCESS TOKEN}
+        access_token_secret = {ENTER SECRET ACCESS TOKEN}
 
         client = tweepy.Client(bearer_token = bearer_token,
                                 consumer_key= api_key,
